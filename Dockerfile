@@ -52,4 +52,7 @@ COPY --from=builder /app/scripts ./scripts
 COPY --from=builder /app/characters ./characters
 
 # Set the command to run the application
-CMD ["pnpm", "start", "--non-interactive"]
+
+ENV NODE_OPTIONS="--max-old-space-size=8192"
+CMD ["pnpm", "run", "start", "--characters='./characters/elizaos.character.json'", "--non-interactive"]
+
