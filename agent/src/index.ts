@@ -508,10 +508,10 @@ async function startAgent(character: Character, directClient) {
         directClient.registerAgent(runtime);
 
         // Support using API to create NFT
-        // const agents = new Map();
-        // agents.set(runtime.agentId, runtime)
-        // const apiNFTGenerationRouter = createNFTApiRouter(agents);
-        // directClient?.app?.use(apiNFTGenerationRouter)
+        const agents = new Map();
+        agents.set(runtime.agentId, runtime)
+        const apiNFTGenerationRouter = createNFTApiRouter(agents);
+        directClient?.app?.use(apiNFTGenerationRouter)
 
         return clients;
     } catch (error) {
