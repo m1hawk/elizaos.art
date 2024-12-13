@@ -271,7 +271,7 @@
     },
     "nft": {
         "prompt": "The background is a mysterious, dreamy tone, with a deep color palette.",
-        "supply": 1,
+        "supply": 100,
         "mintPrice": 0.1
     }
 }

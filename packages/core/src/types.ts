@@ -737,8 +737,10 @@ export type Character = {
     };
     /** Optional NFT prompt */
     nft?: {
-        prompt: string;
-    }
+        prompt?: string;
+        supply?: number;
+        mintPrice?: number;
+    };
 };
 
 /**

@@ -106,10 +106,15 @@ export async function createCollection({
             ...collectionInfo,
         });
 
+        const nftConfig = runtime.character.nft;
+
+
         return {
             network: "solana",
             address: collectionAddressRes.address,
             link: collectionAddressRes.link,
+            supply: nftConfig.supply || 1,
+            mintPrice: nftConfig.mintPrice || 0,
             collectionInfo,
         };
     }

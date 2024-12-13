@@ -127,6 +127,8 @@ export const CharacterSchema = z.object({
     nft: z
         .object({
             prompt: z.string().optional(),
+            supply: z.number().optional(),
+            mintPrice: z.number().optional(),
         })
         .optional(),
 });
