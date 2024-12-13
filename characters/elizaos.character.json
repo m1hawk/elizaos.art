@@ -1,9 +1,7 @@
 {
     "name": "ElisaOS.Art",
     "plugins": [],
-    "clients": [
-        "telegram"
-    ],
+    "clients": ["twitter", "telegram"],
     "modelProvider": "openai",
     "settings": {
         "secrets": {},
