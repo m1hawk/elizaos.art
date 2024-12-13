@@ -2,6 +2,7 @@
     "name": "ElisaOS.Art",
     "plugins": [],
     "clients": [
+        "telegram"
     ],
     "modelProvider": "openai",
     "settings": {
