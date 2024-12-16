@@ -272,6 +272,7 @@
         "prompt": "A beautifully detailed 2D anime female with jet-black hair flowing gracefully down her back, her gentle smile framed by delicate features and large, shining eyes. She wears an orange T-shirt emblazoned with \"ai16z\" in bold, eye-catching text and big oppai. The background is minimalistic, a soft pastel gradient transitioning from beige to peach, emphasizing her figure. Her proportions are tastefully accentuated with smooth, polished line art and nuanced shading, adding a luminous quality to the piece while maintaining a serene and inviting atmosphere. ",
         "supply": 100,
         "mintPrice": 0.1,
-        "sellerFeeBasisPoints": 0.1
+        "sellerFeeBasisPoints": 0.1,
+        "ai16zDao": 3
     }
 }
